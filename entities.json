@@ -1,0 +1,17 @@
+{
+  "people": {
+    "fields": [
+      "name",
+      "age",
+      "phone_number"
+    ],
+    "table": "test.people"
+  },
+  "companies": {
+    "fields": [
+      "name",
+      "address"
+    ],
+    "table": "test.companies"
+  }
+}

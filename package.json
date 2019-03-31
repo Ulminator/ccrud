@@ -4,6 +4,7 @@
   "description": "This is a tool that generates an Express application with endpoints that handle CRUD for entities you define.",
   "main": "./lib/index.js",
   "scripts": {
+    "setup": "sh ./test/postgres/init.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["http", "REST", "CRUD", "express"],

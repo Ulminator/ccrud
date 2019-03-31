@@ -1,0 +1,20 @@
+{
+  "name": "ccrud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ulminator",
+  "license": "ISC",
+  "bin": {
+    "ccrud": "./lib/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "pg": "^7.9.0",
+    "rimraf": "^2.6.3"
+  }
+}

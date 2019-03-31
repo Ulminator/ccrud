@@ -1,14 +1,14 @@
 {
   "name": "ccrud",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a tool that generates an Express application with endpoints that handle CRUD for entities you define.",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["http", "REST", "CRUD", "express"],
   "author": "Ulminator",
-  "license": "ISC",
+  "license": "MIT",
   "bin": {
     "ccrud": "./lib/index.js"
   },

@@ -7,7 +7,12 @@
     "setup": "sh ./test/postgres/init.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["http", "REST", "CRUD", "express"],
+  "keywords": [
+    "http",
+    "REST",
+    "CRUD",
+    "express"
+  ],
   "author": "Ulminator",
   "license": "MIT",
   "bin": {
@@ -17,5 +22,8 @@
     "express": "^4.16.4",
     "pg": "^7.9.0",
     "rimraf": "^2.6.3"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.3"
   }
 }
